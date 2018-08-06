@@ -50,7 +50,7 @@ To explain the system clearly, i will use a top down approach. we will Starting 
 
 #### Top Level Design
 
-![top level design](/assets/images/dencoin_toplevel.png)
+![top level design](/assets/images/dencoin_toplevel.png | absolute_url )
 
 The dencoin network consists of **Nodes** *(computers that are both client and server)* each holding a copy of the blockchain, mine new blocks and manage transactions and wallets. And all nodes communicate via a peer to peer network.
 
