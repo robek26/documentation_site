@@ -222,7 +222,7 @@ Waking a Node - python dencoin.py Mary -nft 11200 10000
 
 ```
 
-### Video Demo
+###Demo
 
  {% youtube "https://www.youtube.com/watch?v=ho8-vK0L1_8" %}
 
