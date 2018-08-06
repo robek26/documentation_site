@@ -224,9 +224,7 @@ Waking a Node - python dencoin.py Mary -nft 11200 10000
 
 ### Video Demo
 
-{
-	<iframe width="560" height="420" src="http://www.youtube.com/embed/oHg5SJYRHA0?color=white&theme=light"></iframe>
-}
+ {% youtube "https://www.youtube.com/watch?v=ho8-vK0L1_8" %}
 
 **You can find the source code of this project [here.](https://github.com/robek26/dencoin){:target="_blank"}**
 
