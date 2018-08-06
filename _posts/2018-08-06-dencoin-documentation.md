@@ -3,7 +3,6 @@ layout : post
 permalink : /dencoin/
 ---
 
-# Dencoin CryptoCurrency 
 
 ### Introduction
 
