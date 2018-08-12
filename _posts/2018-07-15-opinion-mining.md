@@ -29,11 +29,11 @@ The system contains three main components
 * Web Client for User Interface
 * Processor
 
-The **NLTK Engine** works on texts fetched by extracting sentiments and opinions. 
+The **NLTK Engine** works on fetched texts by extracting sentiments and opinions. 
 
-The **Web Client** is used by the user to upload or fetch data from multiple sources and view the extracted sentiments from the NLTK engine. The webclient is written in html,css and javascript.
+The **Web Client** is used by the user to upload or gather data from multiple sources and view the extracted sentiments from the NLTK engine. The webclient is written in html,css and javascript.
 
-The **Processor** is used to fetch data from facebook,twitter or local files containing reviews or comments and feeds them to the NLTK engine. After the NLTK engine extracts the sentiments, the processor using the builtin small server will forward the results to the connected webclient. The processor is written in  python.
+The **Processor** is used to gather data from facebook,twitter or local files containing reviews or comments and feeds them to the NLTK engine. After the NLTK engine extracts the sentiments, the processor using the builtin small server will forward the results to the connected webclient. The processor is written in python.
 
 ### The Web Client
 
