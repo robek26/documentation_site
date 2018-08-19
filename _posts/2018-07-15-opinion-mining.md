@@ -83,6 +83,18 @@ Scrolled down image
 
 As you can see in the above two images, On the top page we have a general sentiment towards the product. And in the Features Sentiments, we have each feature's sentiment and the number of mentions in the review.
 
+### To launch the system
+
+```
+1. source activate <ENV NAME>
+2. cd path\to\project\folder\SERVER
+3. python op_server.py
+4. Go to WEB folder and click index.html 
+
+You can now use the application
+
+```
+
 **You can find the source code of this project [here](https://github.com/robek26/opinion_mining){:target="_blank"}.**
 
 
