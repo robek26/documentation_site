@@ -20,7 +20,7 @@ This project is focused on extracting an actors face from a movie, identify thei
 
 ### How The System Works
 
-![top level design](images/face_rec_toplevel_2.png)
+![top level design](/{{site.baseurl}}/assets/images/face_rec_toplevel_2.png)
 
 When a person is watching a movie and suddenly sees an actor/actress that is interesting and wants to find out more about them, he will pause the movie and use the the screen snipper tool to snip the face of the actor. The `screen snipper` module shown in the above image does this. After the image is taken the `sender receiver` module will send the image to server that processes the image. The `screen snipper` and `sender receiver` module are written in java.
 
@@ -34,38 +34,38 @@ To build the database for the 1000 actors and actresses, i followed three steps.
 
 #### Step 1. Getting the 1000 actors names
 
-![step 1](images/facerec_step_1.png)
+![step 1](/{{site.baseurl}}/assets/images/facerec_step_1.png)
 
 As you can see in the above image, there is an imdb top 1000 actors page. Actually it is a 10 page list. So i wrote a small scraper in python to extract all the names and imdb_id (nmxxxxxx) and put it in a sqlite database. 
 
 #### Step 2. Downloading Images of Each Actor
 
-![step 2](images/facerec_step_2_1.png)
+![step 2](/{{site.baseurl}}/assets/images/facerec_step_2_1.png)
 
 Here on step 2, we have an image grabber script that connects to dogpile search engine, scrapes image urls and  downloads images(30) of each actor using the actors name list. The downloaded images are kept in a local directory for further processing.
 
 #### Step 3. Encoding the Face Image of Each Actor
 
-![step 3](images/facerec_step_3.png)
+![step 3](/{{site.baseurl}}/assets/images/facerec_step_3.png)
 
 Once we have all the images necessary, Each image is sent to `face detector` module to check if there is a face in the image and the `face encoder` module encodes the images and store them in a database. As stated in step 2 we have 30 images of each actor but only 10 are encoded. This is done to make sure if an actor has few images where their face can't be detected, then there will be uneven number of face encodings for each actors. So to make the process easier we have 30 images of each actor and encode 10 of them.
 
 
 ### How To Use The Application
 
-![Img 1](images/fr_img5.png)
+![Img 1](/{{site.baseurl}}/assets/images/fr_img5.png)
 
 On the menu bar, click on the smiley face icon and a popup menu will appear showing `Snip Screen` option. Click on it and the whole screen dims.
 
-![Img 2](images/fr_img6.png)
+![Img 2](/{{site.baseurl}}/assets/images/fr_img6.png)
 
 After the screen dims, select the face of the actor to identify .
 
-![Img 3](images/fr_img7.png)
+![Img 3](/{{site.baseurl}}/assets/images/fr_img7.png)
 
 After Selection, the application will send the selected image to the processor and waits for a response. As you can see on the image above, we have a notification saying the face is recognized and whose face it is. After few seconds the notification disappears.
 
-![Img 4](images/fr_img8.png)
+![Img 4](/{{site.baseurl}}/assets/images/fr_img8.png)
 
 While the notification is displaying, the browser will open and load the imdb page of the identified actor.
 
