@@ -5,11 +5,11 @@ permalink : /pretty-or-not/
 
 ### Introduction
 
-This project is focused on training neural network models to predict if a person will find an image of a girl attractive or not. This system can be added as an addon to existing dating apps.
+This project is focused on training neural network models to predict if a person will find an image of a person attractive or not. This system can be added as an addon to existing dating apps.
 
 ### What i used to build the system
 
-* Screen Snipper tool written in **java**
+
 * **Anaconda** with python 3.5.3
 * External python libraries
     * **face_recognition** simple face encoder built on top of **dlib** library.
