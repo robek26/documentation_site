@@ -6,7 +6,7 @@ permalink : /raven_trader_bot/
 
 ### Introduction
 
-This project is focused on building a trading bot that trades stockes on behalf of a user. The system uses day trading strategies since the system can tested and proft/loss can be realized quickly. It's an ongoing project and this documentation will show the completed features. To understand this system, It's necessary to have a basic understanding on how stock market works. 
+This project is focused on building a trading bot that trades stocks on behalf of a user. The system uses day trading strategies since the system can tested and proft/loss can be realized quickly. It's an ongoing project and this documentation will show the completed features. To understand this system, It's necessary to have a basic understanding on how stock market works. 
 
 ### What i used to build the system
 
