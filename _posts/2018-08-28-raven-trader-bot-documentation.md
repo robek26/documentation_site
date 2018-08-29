@@ -16,7 +16,7 @@ This project is focused on building a trading bot that trades stockes on behalf 
     * **alpha_vantage** provides time series stock prices in 1 min, 2 min, 5 min interval.
     * **Beautiful Soup** used to scrape websites to pick daily stocks.
     * **pandas** to wrap data in a dataframe for easier data manipulation.
-    * ***matplotlib* for plotting and other finance calculations
+    * **matplotlib** for plotting and other finance calculations
 
 ### How The System Works
 
